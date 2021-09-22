@@ -1,0 +1,22 @@
+Package: hafrolsss
+Title: R-utilities for Working with Marec-LSSS
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Sigurður Þór",
+           family = "Jónsson",
+           role = c("aut", "cre"),
+           email = "sigurdur@hafro.is",
+           comment = c(ORCID = "0000-0001-5550-0326"))
+Description: Reads LSSS-report (see https://marec.no) outputs 
+  and writes env params to cal-file based on nearest neighbour CTD.
+Depends:
+    R (>= 3.1.1),
+    geo,
+    bionechi,
+    tidyverse
+Imports: dplyr, purrr, tidyr, magrittr
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
