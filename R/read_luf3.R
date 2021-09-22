@@ -1,3 +1,10 @@
+#' Read ListUserFile03
+#'
+#' Read LSSS-report ListUserFile03 giving 2D (water column) NASC by species.
+#'
+#' @param rep_file Path and filename of ListUserFile03.
+#' @export
+
 read_luf3 <- function(rep_file) {
   rep_file %>%
     readr::read_csv(show_col_types=FALSE) %>%

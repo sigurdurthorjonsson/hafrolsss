@@ -1,3 +1,10 @@
+#' Read ListUserFile16
+#'
+#' Read LSSS-report ListUserFile16 giving 3D (layered) NASC by species.
+#'
+#' @param rep_file Path and filename of ListUserFile16
+#' @export
+
 read_luf16 <- function(rep_file) {
   options(readr.num_columns = 0)
   rep_file %>%
